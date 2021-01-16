@@ -4,16 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <title>DRM_WIDEVINE</title>
-  <link rel="stylesheet" type="text/css" href="../../videojs/lib/video-js.css" />
-  <script src="../../videojs/lib/video.js"></script>
-  <script src="../../videojs/lib/dash.all.debug.js"></script>
-  <script src="../../videojs/lib/videojs-dash.js"></script>
-  <script src="./index.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://vjs.zencdn.net/7.5.4/video-js.min.css" />
 </head>
 
 <body style="background-color:white">
   <p>TestPlayer 1</p>
-  <video id="video1" class="video-js vjs-default-skin vjs-big-play-centered"></video>
+  <video id="video1" class="video-js vjs-default-skin vjs-big-play-centered" muted="muted"></video>
+
+  <script src="https://vjs.zencdn.net/7.5.4/video.js"></script>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+  <script src="https://sample.pallycon.com/dev/resources/js/videojs-dash.min.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
